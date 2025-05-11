@@ -1,0 +1,43 @@
+# macOS system files
+.DS_Store
+
+# Node.js build artifacts (if you use a build process)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+
+# Sass cache
+.sass-cache/
+
+# VS Code or JetBrains IDEs
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Composer dependencies (if ever used)
+vendor/
+
+# OS or editor temp files
+*.swp
+*.bak
+*.tmp
+Thumbs.db
+
+# Git-ignored build or release zips
+*.zip
+
+# WordPress core directories (for safety, if this ever expands)
+wp-admin/
+wp-includes/
+
+# Ignore Freemius SDK in Pro (add to DojoPress Pro only)
+freemius/
+
+# If using local dev tools like LocalWP
+.env
+.env.*
